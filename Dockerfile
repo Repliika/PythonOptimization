@@ -1,7 +1,8 @@
 #FROM ubuntu
 #Slim removes tools, this one such as GIT
 #We do not need to do apt-get or install anymore due to ubuntu
-FROM python:3.9-slim-buster
+#FROM python:3.9-slim-buster
+FROM python:3.9-alpine
 
 #RUN apt-get -y update && \
 #    apt-get -y install --no-install-recommends python3-pip python3 && \
